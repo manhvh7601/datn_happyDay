@@ -22,8 +22,8 @@
           <div class="text">
             <p class="breadcrumbs mb-2" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span
                 class="mr-2"><a href="{{route('home')}}">Trang Chủ</a></span> <span class="mr-2"><a
-                  href="rooms.html">Phòng</a></span> <span>Phòng đơn </span></p>
-            <h1 class="mb-4 bread">Phòng đơn </h1>
+                  href="{{route('resort')}}">Resort</a></span> <span>Resort</span></p>
+            <h1 class="mb-4 bread">Resort</h1>
           </div>
         </div>
       </div>

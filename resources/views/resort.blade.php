@@ -1,4 +1,4 @@
-@extends('client.rooms')
+@extends('client.resort')
 @section('content')
     <div class="container">
         <section class="ftco-section bg-light">
@@ -8,7 +8,7 @@
                         <div class="row">
                             <div class="col-sm col-md-6 col-lg-4 ftco-animate">
                                 <div class="room">
-                                    <a href="{{ route('roomSingle') }}"
+                                    <a href="{{ route('resortReview') }}"
                                         class="img d-flex justify-content-center align-items-center"
                                         style="background-image: url({{ asset('clientcss/images/room-6.jpg') }})">
                                         <div class="icon d-flex justify-content-center align-items-center">
@@ -16,7 +16,7 @@
                                         </div>
                                     </a>
                                     <div class="text p-3 text-center">
-                                        <h3 class="mb-3"><a href="{{ route('roomSingle') }}">Luxury Room</a></h3>
+                                        <h3 class="mb-3"><a href="{{ route('resortReview') }}">Luxury Resort</a></h3>
                                         <p><span class="price mr-2">$500.00</span> <span class="per">Một
                                                 đêm</span></p>
                                         <ul class="list">
@@ -26,7 +26,7 @@
                                             <li><span>Giường:</span> 2</li>
                                         </ul>
                                         <hr>
-                                        <p class="pt-1"><a href="{{ route('roomSingle') }}"
+                                        <p class="pt-1"><a href="{{ route('resortReview') }}"
                                                 class="btn-custom">Book
                                                 Now <span class="icon-long-arrow-right"></span></a></p>
                                     </div>
@@ -34,7 +34,7 @@
                             </div>
                             <div class="col-sm col-md-6 col-lg-4 ftco-animate">
                                 <div class="room">
-                                    <a href="{{ route('roomSingle') }}"
+                                    <a href="{{ route('resortReview') }}"
                                         class="img d-flex justify-content-center align-items-center"
                                         style="background-image: url({{ asset('clientcss/images/room-6.jpg') }})">
                                         <div class="icon d-flex justify-content-center align-items-center">
@@ -42,7 +42,7 @@
                                         </div>
                                     </a>
                                     <div class="text p-3 text-center">
-                                        <h3 class="mb-3"><a href="{{ route('roomSingle') }}">Luxury Room</a></h3>
+                                        <h3 class="mb-3"><a href="{{ route('resortReview') }}">Luxury Resort</a></h3>
                                         <p><span class="price mr-2">$500.00</span> <span class="per">Một
                                                 đêm</span></p>
                                         <ul class="list">
@@ -52,7 +52,7 @@
                                             <li><span>Giường:</span> 2</li>
                                         </ul>
                                         <hr>
-                                        <p class="pt-1"><a href="{{ route('roomSingle') }}"
+                                        <p class="pt-1"><a href="{{ route('resortReview') }}"
                                                 class="btn-custom">Book
                                                 Now <span class="icon-long-arrow-right"></span></a></p>
                                     </div>
@@ -60,7 +60,7 @@
                             </div>
                             <div class="col-sm col-md-6 col-lg-4 ftco-animate">
                                 <div class="room">
-                                    <a href="{{ route('roomSingle') }}"
+                                    <a href="{{ route('resortReview') }}"
                                         class="img d-flex justify-content-center align-items-center"
                                         style="background-image: url({{ asset('clientcss/images/room-6.jpg') }})">
                                         <div class="icon d-flex justify-content-center align-items-center">
@@ -68,7 +68,7 @@
                                         </div>
                                     </a>
                                     <div class="text p-3 text-center">
-                                        <h3 class="mb-3"><a href="{{ route('roomSingle') }}">Luxury Room</a></h3>
+                                        <h3 class="mb-3"><a href="{{ route('resortReview') }}">Luxury Resort</a></h3>
                                         <p><span class="price mr-2">$500.00</span> <span class="per">Một
                                                 đêm</span></p>
                                         <ul class="list">
@@ -78,7 +78,7 @@
                                             <li><span>Giường:</span> 2</li>
                                         </ul>
                                         <hr>
-                                        <p class="pt-1"><a href="{{ route('roomSingle') }}"
+                                        <p class="pt-1"><a href="{{ route('resortReview') }}"
                                                 class="btn-custom">Book
                                                 Now <span class="icon-long-arrow-right"></span></a></p>
                                     </div>
@@ -86,7 +86,7 @@
                             </div>
                             <div class="col-sm col-md-6 col-lg-4 ftco-animate">
                                 <div class="room">
-                                    <a href="{{ route('roomSingle') }}"
+                                    <a href="{{ route('resortReview') }}"
                                         class="img d-flex justify-content-center align-items-center"
                                         style="background-image: url({{ asset('clientcss/images/room-6.jpg') }})">
                                         <div class="icon d-flex justify-content-center align-items-center">
@@ -94,7 +94,7 @@
                                         </div>
                                     </a>
                                     <div class="text p-3 text-center">
-                                        <h3 class="mb-3"><a href="{{ route('roomSingle') }}">Luxury Room</a></h3>
+                                        <h3 class="mb-3"><a href="{{ route('resortReview') }}">Luxury Resort</a></h3>
                                         <p><span class="price mr-2">$500.00</span> <span class="per">Một
                                                 đêm</span></p>
                                         <ul class="list">
@@ -104,7 +104,7 @@
                                             <li><span>Giường:</span> 2</li>
                                         </ul>
                                         <hr>
-                                        <p class="pt-1"><a href="{{ route('roomSingle') }}"
+                                        <p class="pt-1"><a href="{{ route('resortReview') }}"
                                                 class="btn-custom">Book
                                                 Now <span class="icon-long-arrow-right"></span></a></p>
                                     </div>
@@ -112,7 +112,7 @@
                             </div>
                             <div class="col-sm col-md-6 col-lg-4 ftco-animate">
                                 <div class="room">
-                                    <a href="{{ route('roomSingle') }}"
+                                    <a href="{{ route('resortReview') }}"
                                         class="img d-flex justify-content-center align-items-center"
                                         style="background-image: url({{ asset('clientcss/images/room-6.jpg') }})">
                                         <div class="icon d-flex justify-content-center align-items-center">
@@ -120,7 +120,7 @@
                                         </div>
                                     </a>
                                     <div class="text p-3 text-center">
-                                        <h3 class="mb-3"><a href="{{ route('roomSingle') }}">Luxury Room</a></h3>
+                                        <h3 class="mb-3"><a href="{{ route('resortReview') }}">Luxury Resort</a></h3>
                                         <p><span class="price mr-2">$500.00</span> <span class="per">Một
                                                 đêm</span></p>
                                         <ul class="list">
@@ -130,7 +130,7 @@
                                             <li><span>Giường:</span> 2</li>
                                         </ul>
                                         <hr>
-                                        <p class="pt-1"><a href="{{ route('roomSingle') }}"
+                                        <p class="pt-1"><a href="{{ route('resortReview') }}"
                                                 class="btn-custom">Book
                                                 Now <span class="icon-long-arrow-right"></span></a></p>
                                     </div>
@@ -138,7 +138,7 @@
                             </div>
                             <div class="col-sm col-md-6 col-lg-4 ftco-animate">
                                 <div class="room">
-                                    <a href="{{ route('roomSingle') }}"
+                                    <a href="{{ route('resortReview') }}"
                                         class="img d-flex justify-content-center align-items-center"
                                         style="background-image: url({{ asset('clientcss/images/room-6.jpg') }})">
                                         <div class="icon d-flex justify-content-center align-items-center">
@@ -146,7 +146,7 @@
                                         </div>
                                     </a>
                                     <div class="text p-3 text-center">
-                                        <h3 class="mb-3"><a href="{{ route('roomSingle') }}">Luxury Room</a></h3>
+                                        <h3 class="mb-3"><a href="{{ route('resortReview') }}">Luxury Resort</a></h3>
                                         <p><span class="price mr-2">$500.00</span> <span class="per">Một
                                                 đêm</span></p>
                                         <ul class="list">
@@ -156,7 +156,7 @@
                                             <li><span>Giường:</span> 2</li>
                                         </ul>
                                         <hr>
-                                        <p class="pt-1"><a href="{{ route('roomSingle') }}"
+                                        <p class="pt-1"><a href="{{ route('resortReview') }}"
                                                 class="btn-custom">Book
                                                 Now <span class="icon-long-arrow-right"></span></a></p>
                                     </div>

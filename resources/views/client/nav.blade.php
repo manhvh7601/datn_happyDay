@@ -8,7 +8,7 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a href="{{route('home')}}" class="nav-link">Trang Chủ</a></li>
-                <li class="nav-item"><a href="{{route('room')}}" class="nav-link">Phòng</a></li>
+                <li class="nav-item"><a href="{{route('resort')}}" class="nav-link">Resort</a></li>
                 <li class="nav-item"><a href="{{route('restaurant')}}" class="nav-link">Nhà Hàng</a></li>
                 <li class="nav-item"><a href="{{route('about')}}" class="nav-link">Giới Thiệu</a></li>
                 <li class="nav-item"><a href="{{route('blog')}}" class="nav-link">Tin Tức</a></li>

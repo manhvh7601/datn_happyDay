@@ -10,7 +10,7 @@
                                 <div class="block-18 text-center">
                                     <div class="text">
                                         <strong class="number" data-number="50000">0</strong>
-                                        <span>Khách vui vẻ</span>
+                                        <span>Người tham quan</span>
                                     </div>
                                 </div>
                             </div>
@@ -18,7 +18,7 @@
                                 <div class="block-18 text-center">
                                     <div class="text">
                                         <strong class="number" data-number="3000">0</strong>
-                                        <span>Phòng</span>
+                                        <span>Resort</span>
                                     </div>
                                 </div>
                             </div>

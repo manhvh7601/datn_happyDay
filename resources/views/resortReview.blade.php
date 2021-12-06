@@ -1,4 +1,4 @@
-@extends('client.rooms-single')
+@extends('client.resortReview')
 @section('content')
     <div class="container">
         <section class="ftco-section">
@@ -7,7 +7,7 @@
                     <div class="col-lg-8">
                         <div class="row">
                             <div class="col-md-12 ftco-animate">
-                                <h2 class="mb-4">Phòng gia đình</h2>
+                                <h2 class="mb-4">Resort</h2>
                                 <div class="single-slider owl-carousel">
                                     <div class="item">
                                         <div class="room-img"
@@ -112,11 +112,11 @@
                                 </div>
                             </div>
                             <div class="col-md-12 room-single ftco-animate mb-5 mt-5">
-                                <h4 class="mb-4">Phòng có sẵn</h4>
+                                <h4 class="mb-4">Resort hiện có</h4>
                                 <div class="row">
                                     <div class="col-sm col-md-6 ftco-animate">
                                         <div class="room">
-                                            <a href="{{ route('room') }}"
+                                            <a href="{{ route('resort') }}"
                                                 class="img img-2 d-flex justify-content-center align-items-center"
                                                 style="background-image: url({{ asset('clientcss/images/room-2.jpg') }})">
                                                 <div class="icon d-flex justify-content-center align-items-center">
@@ -124,12 +124,12 @@
                                                 </div>
                                             </a>
                                             <div class="text p-3 text-center">
-                                                <h3 class="mb-3"><a href="{{ route('room') }}">Family Room</a>
+                                                <h3 class="mb-3"><a href="{{ route('resort') }}">Family Room</a>
                                                 </h3>
                                                 <p><span class="price mr-2">20.00 VND</span> <span
                                                         class="per">Một đêm</span></p>
                                                 <hr>
-                                                <p class="pt-1"><a href="{{route('roomSingle')}}"
+                                                <p class="pt-1"><a href="{{route('resortReview')}}"
                                                         class="btn-custom">Chi Tiết <span
                                                             class="icon-long-arrow-right"></span></a></p>
                                             </div>
@@ -137,7 +137,7 @@
                                     </div>
                                     <div class="col-sm col-md-6 ftco-animate">
                                         <div class="room">
-                                            <a href="{{ route('room') }}"
+                                            <a href="{{ route('resort') }}"
                                                 class="img img-2 d-flex justify-content-center align-items-center"
                                                 style="background-image: url({{ asset('clientcss/images/room-2.jpg') }})">
                                                 <div class="icon d-flex justify-content-center align-items-center">
@@ -145,12 +145,12 @@
                                                 </div>
                                             </a>
                                             <div class="text p-3 text-center">
-                                                <h3 class="mb-3"><a href="{{ route('room') }}">Family Room</a>
+                                                <h3 class="mb-3"><a href="{{ route('resort') }}">Family Room</a>
                                                 </h3>
                                                 <p><span class="price mr-2">$20.00</span> <span
                                                         class="per">Một đêm</span></p>
                                                 <hr>
-                                                <p class="pt-1"><a href="{{route('roomSingle')}}"
+                                                <p class="pt-1"><a href="{{route('resortReview')}}"
                                                         class="btn-custom">Chi Tiết <span
                                                             class="icon-long-arrow-right"></span></a></p>
                                             </div>

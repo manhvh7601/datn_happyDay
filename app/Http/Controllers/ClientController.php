@@ -18,13 +18,13 @@ class ClientController extends Controller
     {
         return view('blog');
     }
-    public function room()
+    public function resort()
     {
-        return view('rooms');
+        return view('resort');
     }
-    public function roomSingle()
+    public function resortReview()
     {
-        return view('room-single');
+        return view('resortReview');
     }
     public function restaurant()
     {
